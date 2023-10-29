@@ -478,7 +478,7 @@ class MapResult extends StatelessWidget {
   Future computeRoute(originLat, originLng, destinationLat, destinationLng,
       mode) async {
     var headers = {
-      "X-Goog-API-Key": "AIzaSyCinpZUOSmMbDLM0RNQWIFhquY94XR-9nc",
+      "X-Goog-API-Key": "INSERT_API_KEY",
       "X-Goog-FieldMask":
           "routes.duration,routes.distanceMeters,routes.polyline.encodedPolyline",
       "Content-Type": "application/json"
