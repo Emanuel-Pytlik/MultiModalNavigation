@@ -450,7 +450,7 @@ class MapResult extends StatelessWidget {
     var url = 'https://maps.googleapis.com/maps/api/geocode/';
     var outputFormat = 'json?';
     var parameters = 'latlng=' + lat.toString() + ',' + lng.toString();
-    var apiKey = '&key=' + 'AIzaSyCinpZUOSmMbDLM0RNQWIFhquY94XR-9nc';
+    var apiKey = '&key=' + '<INSERT_API_KEY>';
 
     final response =
         await http.get(Uri.parse(url + outputFormat + parameters + apiKey));
